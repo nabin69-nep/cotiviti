@@ -1,0 +1,545 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #31006E;
+    position: fixed;
+    z-index: 99;
+    width: 100vw;
+    top: 0;
+}
+
+.container {
+    margin: auto auto;
+    width: 80%;
+    padding: 20px;
+    padding-top: 38px;
+    display: flex;
+    justify-content: space-between;
+}
+
+header .container > div{
+    display: flex !important;
+    justify-content: space-between;
+}
+
+.container img {
+    width: 65%;
+    height: 65%;
+}
+
+nav ul {
+    display: flex;
+    justify-content: end;
+
+}
+
+.container nav ul li {
+    list-style: none;
+}
+
+.container nav ul li a {
+    text-decoration: none;
+    color: white;
+    margin: 13px;
+    padding: 10px;
+    font-family: system-ui;
+
+}
+
+.container nav ul li a:hover {
+    border-bottom: 2px solid #ec009b;
+}
+
+.container nav ul li a:active {
+    color: #ec009b;
+}
+
+#intro {
+    padding-top: 100px;
+    background-color: #31006E;
+    background-image: url("banner-pattern.png");
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 51% auto;
+    height: 100vh;
+    cursor: all-scroll;
+}
+
+#intro h1 {
+    color: white;
+}
+
+#intro .container {
+    flex-direction: column;
+}
+
+#intro .container h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 40px;
+    font-weight: 500;
+    font-size: 27px;
+
+}
+
+#info {
+    background-color: white;
+    width: 60%;
+    margin-top: 45px;
+    height: 40vh;
+    padding-left: 40px;
+    padding-top: 20px;
+}
+
+#info small {
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+#info h2 {
+    color: #573188;
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#info p {
+    color: red;
+    font-size: 20px;
+    margin-top: 25px;
+}
+
+
+#build div {
+    background-image: url(building.png);
+    background-repeat: no-repeat;
+    background-position: 86% 86%;
+    background-size: auto 130%;
+    height: 50vh;
+    overflow: hidden;
+    padding-top: 70px;
+    padding-left: 100px;
+}
+
+div .para {
+    margin-top: 15px;
+    line-height: 25px;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+div .para a {
+    text-decoration: none;
+
+}
+
+div .para a:hover {
+    color: #ec009b;
+}
+
+#parallax {
+    height: 55vh;
+    background-image: url(parallax-home.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 140%;
+    background-attachment: fixed;
+}
+
+#job .container {
+    text-align: center;
+    flex-direction: column;
+    background-image: url(https://www.cotiviti.com.np/sites/all/themes/verscend/images/join.png);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+
+#job .container h1 {
+    color: #2e3192;
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    margin-top: 30px;
+}
+
+#job .container>p {
+    margin-top: 25px;
+}
+
+#name {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 40px;
+    padding-top: 40px;
+}
+
+#job .container #name a:first-child {
+    text-align: left;
+    font-size: 25px;
+    text-decoration: none;
+    color: #ec009b;
+    margin-bottom: 10px;
+}
+
+#job .container #name a:first-child:hover {
+    color: #10069f;
+}
+
+#job .container #name a:last-child {
+    width: 75px;
+}
+
+#cursive {
+    font-size: 15px;
+    margin-top: 25px;
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 14px;
+    font-family: cursive;
+}
+
+
+#job .container img {
+    margin: 20px;
+    width: 14%;
+}
+
+#job .container h2 {
+    font-family: system-ui;
+    font-weight: lighter;
+    font-size: 33px;
+    margin-bottom: 20px;
+}
+
+#but button {
+    width: 130px;
+    height: 45px;
+    margin-left: 15px;
+    margin-top: 22px;
+    color: #10069f;
+    border: 1px solid #10069f;
+    font-size: 15px;
+    background-color: white;
+    cursor: pointer;
+    font-family: sans-serif;
+}
+
+#but button:hover {
+    color: white;
+    background-color: #ec009b;
+    border: none;
+
+}
+
+footer section .container {
+    display: block;
+}
+
+footer section {
+    margin-top: 100px;
+    background-color: #eaeaea;
+}
+
+
+#footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navigate {
+    font-family: sans-serif;
+    font-size: 22px;
+    font-weight: lighter;
+    color: #10069f;
+
+}
+
+.container div:last-child {
+    display: block;
+}
+
+#link {
+    display: flex;
+    line-height: 27px;
+    gap: 60px;
+    margin-top: -40px;
+}
+
+#link li {
+    list-style: none;
+}
+
+#link li a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.7);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 13px;
+}
+
+#link li a:hover {
+    color: #ec009b;
+}
+
+#footer div:last-child h3 {
+    color: #10069f;
+    font-family: sans-serif;
+    font-size: 22px;
+    font-weight: lighter;
+    margin-top: -24px;
+}
+
+#footer div:last-child {
+    color: rgba(0, 0, 0, 0.7);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 13px;
+    padding-right: 50px;
+}
+
+#footer div:last-child div {
+    margin-top: 20px;
+}
+
+#footer div:last-child div p {
+    line-height: 25px;
+}
+
+footer section #last {
+    display: flex;
+    justify-content: space-between;
+    width: 84vw;
+    margin-top: 60px;
+}
+
+footer section #last img {
+    width: 21vw;
+}
+
+/* 576(for mobile)*/
+
+@media(max-width:576px) {
+    #intro {
+        background-image: none;
+    }
+
+    .container img {
+        height: 90%;
+        width: 45%;
+    }
+
+    nav ul {
+        display: none;
+    }
+
+    #intro .container h1 {
+        width: 80%;
+    }
+
+    #intro {
+        height: 115vh;
+    }
+
+    #info {
+        width: 70vw;
+        height: 50vh;
+    }
+
+    #info h2 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 35px;
+    }
+
+    #info p {
+        font-size: 14px;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 25px;
+    }
+
+    #build {
+        height: 75vh;
+    }
+
+    #build div {
+        height: 75vh;
+        background-size: 50% auto;
+        background-position: 90% bottom;
+        padding-left: 25px;
+        padding-top: 50px;
+    }
+
+    #build div .para {
+        width: 34em;
+    }
+
+    #parallax {
+        background-size: contain;
+        height: 70vh;
+        background-size: auto 100vh;
+    }
+
+    #job .container h1 {
+        font-size: 35px;
+    }
+
+    #job .container #name {
+        padding-left: 0;
+        padding-top: 25px;
+    }
+
+    #job .container #name a:first-child {
+        font-size: 20px;
+    }
+
+    #job .container #name a:last-child {
+        width: 40px;
+    }
+
+    #job .container img {
+        width: 30%;
+    }
+
+    #job .container h2 {
+        font-size: 30px;
+        margin-bottom: 5px;
+    }
+
+    #job .container p {
+        font-size: 14px;
+        width: 26em;
+        left: 55px;
+        margin-top: 10px;
+        padding-left: 52px;
+    }
+
+    #job .container #but {
+        margin-top: 25px;
+    }
+
+    footer section .container {
+        padding: 0;
+        margin: 0;
+        width: 100vw;
+    }
+
+    #navigate {
+        padding-top: 25px;
+        padding-left: 30px;
+        font-size: 20px;
+    }
+
+    footer section .container #footer {
+        display: block;
+        padding-left: 30px;
+        /* flex-direction: column; */
+    }
+
+    footer section .container #footer #link {
+        display: block;
+        margin-top: 11px;
+        margin-bottom: 50px;
+    }
+
+    #link li a {
+        font-size: 12px;
+    }
+
+    #footer div:last-child h3 {
+        font-size: 20px;
+    }
+
+    #footer div:last-child div p {
+        font-size: 12px;
+    }
+
+    footer section #last {
+        flex-direction: column;
+        margin-top: 30px;
+    }
+
+    footer section #last p {
+        padding-left: 30px;
+        font-size: 12px;
+    }
+
+    footer section #last img {
+        margin-top: 20px;
+        margin-left: 165px;
+        width: 45vw;
+    }
+}
+
+/* 576 to 991(tablet) 
+ for Mobile responsive design  */
+
+@media (max-width:991px)and (min-width:576px) {
+    #intro {
+        background-image: none;
+    }
+
+    .container img {
+        height: 90%;
+        width: 36%;
+    }
+
+    header .container {
+        width: 100%;
+    }
+
+    #intro {
+        height: 110vh;
+    }
+
+    #info {
+        width: 80%;
+        height: 45vh;
+    }
+
+    #info h2 {
+        font-weight: 100;
+    }
+
+    #build {
+        height: 75vh;
+    }
+
+    #build div {
+        height: 75vh;
+        background-size: 50% auto;
+        background-position: 95% bottom;
+        padding-left: 25px;
+        padding-top: 16%;
+    }
+
+    div .para {
+        margin-top: 15px;
+        line-height: 30px;
+        font-size: 13px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    footer section .container #footer #link {
+        margin-left: -85px;
+    }
+
+    #navigate {
+        margin-left: -85px;
+    }
+
+    footer section #last {
+        margin-top: 40px;
+    }
+
+    footer section #last p {
+        font-size: 16px;
+        margin-left: -85px;
+    }
+
+    footer section #last img {
+        margin-top: -18px;
+        width: 32vw;
+        margin-right: 11%;
+    }
+}
